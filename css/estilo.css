@@ -1,93 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-background-color: #e2bbee;
-font-family: 'Montserrat', sans-serif;
+body {
+  background-color: #e2bbee;
+  font-family: "Montserrat", sans-serif;
 }
 
-header{
-    text-align: center;
-    background-color: #ca6be3;
+header {
+  text-align: center;
+  background-color: #ca6be3;
 }
 
-nav{
-    padding: 10px;
-    margin: auto;
-    position: sticky;
-    top: 10px;
+main nav {
+  padding: 10px;
+  margin: auto;
+  position: sticky;
+  top: 10px;
+}
+main nav .menu {
+  background-color: #ca6be3;
+  list-style: none;
+  text-align: center;
+}
+main nav .menu li {
+  display: inline-block;
+}
+main nav .menu li a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+main nav .menu li a:hover {
+  font-weight: bold;
+  color: #ca6be3;
+  background-color: white;
+}
+main h2 {
+  text-align: center;
+}
+main h2 a {
+  text-decoration: none;
+}
+main section {
+  line-height: 1.5;
+  height: auto;
+}
+main section h2 {
+  text-align: center;
+}
+main section .contenedor {
+  background-color: #ca6be3;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  gap: 20px;
+}
+main .cuadros {
+  background-color: #ca6be3;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 20px auto;
+}
+main .form {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
 }
 
-.menu{
-    background-color: #ca6be3;
-    list-style: none;
-    text-align: center;
+footer {
+  text-align: center;
+  background-color: #ca6be3;
 }
-.menu li{
-    display: inline-block;
-}
-.menu li a{
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-}
-.menu li a:hover{
-    font-weight: bold;
-    color: #ca6be3;
-    background-color: white;
-
-    
+footer a {
+  text-decoration: none;
 }
 
-footer{
-    text-align: center;
-    background-color: #ca6be3;
-}
-footer h4 a{
-    text-decoration: none;
-    
-}
-.pinterest{
-    text-align: center;
-}
-.pinterest a{
-    text-decoration: none;
-    
-}
-
-.servicio{
-    line-height: 1.5;
-    height: auto;
-}
-.servicio h2{
-    text-align: center;
-}
-.cuadros{
-    background-color: #ca6be3;
-    width: auto;
-    height: auto;
-    text-align: center;
-    margin: 20px auto;
-}
-.contenedor{
-    background-color: #ca6be3;
-    width: auto;
-    height: auto;
-    text-align: center;
-    margin: 20px auto;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr;
-    gap: 20px;
-}
-.form{
-    text-align: center;
-    width: 500px;
-    margin: 0 auto;
-}
-
+/*# sourceMappingURL=estilo.css.map */
