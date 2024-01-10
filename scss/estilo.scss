@@ -6,21 +6,21 @@
 body{
     background-image:linear-gradient(#ca6be3, #e2bbee);
     font-family: 'Montserrat', sans-serif;
+    height: 100vhs;
 }
 header{
     text-align: center;
-    background-color: #ca6be3;   
-}
-main{
+    background-color: #ca6be3; 
     nav{
         padding: 10px;
         margin: auto;
         position: sticky;
         top: 10px;
         .menu{
-            background-color: #ca6be3;
-            list-style: none;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            width: 100%;
             li{
                 display: inline-block;
                 a{
@@ -38,7 +38,9 @@ main{
             
             }
         }
-    }
+    }  
+}
+main{
     h2{ 
         text-align: center;
         a{
@@ -70,17 +72,21 @@ main{
         text-align: center;
         margin: 20px auto;
     }
+    .servicios{
+        margin-bottom: 20px auto;
+    }
     .form{
         text-align: center;
         width: 500px;
-        margin: 0 auto;
-        
+        margin: 50px auto;
     }
 }
+
 footer{
     width: 90% auto;
     text-align: center;
     background-color: #ca6be3;
+    margin-bottom: 0;
     a{
         text-decoration: none;
     }
